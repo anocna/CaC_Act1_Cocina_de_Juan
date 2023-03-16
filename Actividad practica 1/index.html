@@ -29,9 +29,17 @@
         <h2> <b> <center><u>Recetas de cocina</u></center></b> </h2>
 
         <h3>Sopa crema de calabaza</h3>
-        
-        <center><img src="./img/sopa.jpg" alt="Sopa de calabaza" style="width: 600px; height: 300px; ;"></center>
+             
+        <!-- cree imagenes adaptables en la pagina https://www.responsivebreakpoints.com/ -->
 
+        <center> <img
+            sizes="(max-width: 600px) 100vw, 600px"
+            srcset="
+            ./img/sopa_g5ofwj_c_scale,w_200.jpg 200w,
+            ./img/sopa_g5ofwj_c_scale,w_573.jpg 573w"
+            src="./img/sopa_g5ofwj_c_scale,w_573.jpg"
+            alt=""></center>
+            
         <nav>
             <a href="receta.html">
                 <button style="background-color: orangered;color:white">Receta</button>

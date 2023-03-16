@@ -27,7 +27,16 @@
     <main>
 
         <h2>Acerda de</h2>
-        <center><img src="./img/cocina.jpg" alt="Sopa de calabaza" style="width: 600px; height: 300px; ;"></center>
+
+        <!-- cree imagenes adaptables en la pagina https://www.responsivebreakpoints.com/ -->
+
+        <center><img
+            sizes="(max-width: 600px) 100vw, 600px"
+            srcset="
+            ./img/cocina_y6gz0o_c_scale,w_50.jpg 50w,
+            ./img/cocina_y6gz0o_c_scale,w_600.jpg 600w"
+            src="./img/cocina_y6gz0o_c_scale,w_600.jpg"
+            alt="Sopa de calabaza"></center>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet, sint, quos placeat aliquam 
             earum neque ab impedit nisi doloribus aperiam at fuga cumque voluptate voluptas. Alias, quasi in! Earum,
